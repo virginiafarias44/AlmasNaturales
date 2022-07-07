@@ -1,0 +1,653 @@
+body{
+	font-family: 'Merienda', cursive;
+}
+
+header, section, footer{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	height: 45px;
+	background-color: #33cccc;
+	position: sticky;
+	top: 10px;
+	border-radius: 10px;
+	z-index: 1;
+}
+#marca{
+	height: 45px;
+	width: 450px;
+	float: left;
+	box-sizing: border-box;
+}
+#tituloh1 {
+	font-family: 'Merienda', cursive;
+	margin: 0px;
+	font-size: 20px;
+	float: left;
+	padding: 10px;
+	font-weight: bolder;
+	color: #000000;
+}
+#arbol{
+	width: 45px;
+	height: 45px;
+	background-image: url("img/arbol.png");
+	background-position: center;
+	background-size: 40px, 40px;
+	background-repeat: no-repeat;
+	float: left;
+}
+#menu_h{
+	float: right;
+	display: none;
+	padding-right: 10px;
+	padding-top: 8px;
+}
+#menu_h a{
+	text-decoration: none;
+	color: #666666;
+}
+
+#botonera{
+	height: 45px;
+	width: 450px;
+	float: right;
+}
+#botonera ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#botonera ul li{
+	display: inline;
+}
+#botonera ul li a{
+	font-family: 'Merienda', cursive;
+	text-decoration: none;
+	display: inline-block;
+	color: #000000;
+	font-weight: bolder;
+	padding: 10px 14px;
+}
+#botonera ul li a:hover{
+	background-color: #ccffff;
+	color: #000000;
+	border-radius: 10px;
+}
+
+#presentacion{
+	height: 400px;
+	background-color: #669900;
+	background-image: url("img/fondo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+
+#cajalogo{
+	width: 400px;
+	height: 300px;
+	background-image: url("img/almas.png");
+	background-size: 285px, 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+#boton{
+	width: 400px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#btn_presentacion{
+	text-decoration: none;
+	padding: 15px 80px;
+	font-family: arial;
+	font-size: 24px;
+	color: #000000;
+	text-shadow: 1px 1px 2px #ffffff, 2px 2px 6px #fffffb;
+	
+}
+#btn_presentacion:hover{
+	color: #ffffff;
+}
+#espacio{
+	height:10px;
+	width: 960px;
+}
+#quienes_somos{
+	height: 250px;
+	background-color: #55d2e6;
+	background-image: url(img/cereales.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+
+#tituloh2{
+	font-family: 'Merienda', cursive;
+	font-size: 24px;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	font-weight: bolder;
+	color: #f2f2f2;
+	text-shadow: 2px 2px 4px #262626;
+}
+
+#txt_qs{
+	font-family: 'Merienda', cursive;
+	margin: 0px;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+	color: #f2f2f2;
+	text-shadow: 2px 2px 4px #262626;
+}
+#tienda{
+	height: 150px;
+	background-color: #008080;
+	border-radius: 10px;
+}
+#btn_tienda{
+	margin-left: 380px;
+	margin-top: 40px;
+	padding: 15px 40px;
+	background-color: #33cccc;
+	font-family: 'merienda', cursive;
+	font-size: 24px;
+	color: #000000;
+	font-weight: lighter;
+	border-radius: 15px;
+	background-image: url(img/fondomadera_ch.jpg);
+	background-size: cover;
+	box-shadow: 0px 0px 10px #ccffff;
+}
+#btn_tienda span{
+	padding-left: 10px;
+}
+#productos{
+	height: 600px;
+	background-color: #008080;
+	background-image: url(img/fondoprod.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	padding-top: 100px
+}
+.alto{
+	height: 400px;
+}
+.carousel{
+	width: 600px;
+	margin-left:180px;
+}
+#txt_p1, #txt_p2, #txt_p3, #txt_p4{
+	width: 200px;
+	height: 200px;
+	background-color: #b3b3b3;
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#promos{
+	height: 350px;
+	background-color: #33cccc;
+	border-radius: 10px;
+
+}
+#promo1, #promo2, #promo3{
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+	opacity: 1;
+}
+#promo1_img{
+	height: 250px;
+	width: 250px;
+	opacity: 1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px #66ffff;
+
+}
+#promo2_img{
+	height: 250px;
+	width: 250px;
+	opacity: 1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px #008080;
+}
+#promo3_img{
+	height: 250px;
+	width: 250px;
+	opacity: 1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px #66ffff;
+
+}
+#promo1_txt, #promo2_txt, #promo3_txt{
+	width: 240px;
+	height: 240px;
+	opacity: 0;
+ 	position: absolute;
+    transform: translate(8px, -180px); 
+}
+#comboE, #comboF, #comboM{
+	font-family: 'Merienda', cursive;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.estilos_p{
+	width: 250px;
+	height: 250px;
+}
+#recetas{
+	height: 600px;
+	/*background-color: #33cccc;*/
+	background-image: url(img/marmolverde.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+	border-radius: 10px;
+}
+#recetasB{
+	height: 550px;
+	padding: 15px !important;
+}
+h5{
+	text-align: center;
+}
+#receta1 #receta2 #receta3 #receta4{
+	padding: 0px !important;
+}
+#rec1, #rec2, #rec3, #rec4{
+	height: 550px !important;
+	background-color: transparent !important;
+	box-shadow:  2px 2px 2px #f2f2f2;
+}
+#textoR1{
+	padding-top: 40px !important;
+	padding-bottom: 30px !important;
+	font-family: 'Merienda', cursive !important;
+}
+#textoR2{
+	padding-top: 50px !important;
+	padding-bottom: 43px !important;
+	font-family: 'Merienda', cursive !important;
+}
+#textoR3{
+	padding-top: 60px ! important;
+	padding-bottom: 80px !important;
+	font-family: 'Merienda', cursive !important;
+}
+#textoR4{
+	padding-bottom: 22px !important;
+	font-family: 'Merienda', cursive !important;
+}
+#formulario{
+	width: 960px;
+	height: 250px;
+	background-color: #008080;
+	padding: 10px;
+	border-radius: 10px;
+}
+footer{
+	height: 200px;
+	background-color: #33cccc;
+	border-radius: 10px;
+}
+#whatsapp{
+	width: 300px;
+	height: 100px;
+	float: left;
+	margin: 25px 10px;
+	font-size: 60px;
+}
+#whatsapp a{
+	text-decoration: none;
+	padding: 20px 120px;
+}
+#instagram{
+	width: 300px;
+	height: 100px;
+	float: left;
+	margin: 25px 10px;
+	font-size: 60px;
+}
+#instagram a{
+	text-decoration: none;
+	padding: 20px 120px;
+}
+#facebook{
+	width: 300px;
+	height: 100px;
+	float: left;
+	margin: 25px 10px;
+	font-size: 60px;
+}
+#facebook a{
+	text-decoration: none;
+	padding: 20px 120px;
+}
+#diseño{
+	font-family: 'Merienda', cursive;
+	text-align: center;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+
+header, section, footer{
+	width: 580px;
+}
+
+#marca{
+	width: 250px;
+}
+h1 {
+	font-size: 13px;
+	padding: 15px 5px;
+}
+#arbol{
+	width: 30px;
+	height: 45px;
+	background-size: 25px, 25px;
+}
+
+#botonera{
+	width: 320px;
+}
+
+#botonera ul li a{
+	padding: 15px 8px;
+	font-size: 12px;
+}
+
+#presentacion{
+	box-sizing: border-box;
+}
+
+h2{
+	padding-top: 25px;
+	font-size: 13px;
+}
+
+p{
+	padding: 15px;
+	font-size: 12px;
+
+}
+
+#productos{
+	height: 1200px;
+}
+
+#productos1, #productos2, #productos3, #productos4{
+	width: 250px;
+	height: 250px;
+	margin-left: 25px;
+	margin-top: 40px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+
+}
+#txt_p1, #txt_p2, #txt_p3, #txt_p4{
+	width: 250px;
+	height: 250px;
+	margin-left: 25px;
+	margin-top: 40px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#promos{
+	height: 900px;
+}
+
+#promo1, #promo2, #promo3{
+	width: 250px;
+	height: 250px;
+	margin-left: 170px;
+	margin-top: 35px;
+
+}
+#recetas{
+	height: 700px;
+}
+
+#receta1, #receta2, #txt_receta1, #txt_receta2{
+	width: 200px;
+	height: 300px;
+	margin-left: 60px;
+	margin-top: 35px;
+}
+
+footer{
+	height: 40px;
+}
+
+#contacto{
+	height: 40px;
+	width: 350px;
+	float: left;
+}
+
+#txt_contacto{
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+	font-size: 13px;
+}
+
+#btn_footer{
+	height: 40px;
+	width: 90px;
+	float: right;
+}
+
+#btn_footer ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#btn_footer ul li{
+	display: inline;
+}
+
+#btn_footer ul li a{
+	text-decoration: none;
+	display: inline-block;
+	color: #000000;
+	width: 40px;
+	height: 40px;
+}
+
+#btn_footer ul li a:hover{
+	background-color: #145252;
+	color: #ffffff;
+	box-sizing: border-box;
+}
+
+#ig{
+	background-image: url("img/ig.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#f{
+	background-image: url("img/face.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+} /*fin disp media 600px - 1023px*/
+
+@media all and (max-width: 599px){ /*inicio media -600*/
+
+header, section, footer{
+	width: 90%;
+}
+header{
+	height: auto;
+}
+
+#marca{
+	height: auto;
+	width: 100%;
+	float: none;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 15px;
+	text-align: center;
+}
+
+#arbol{
+	width: 30px;
+	height: 30px;
+	background-size: 30px, 30px;
+	padding-top: 10px;
+}
+#menu_h{
+	display: block;
+}
+
+#botonera{
+	height: auto;
+	width: 100%;
+	float: none;
+	display: none;
+}
+
+#botonera ul li{
+	display: block;
+}
+
+#botonera ul li a{
+	padding: 10px;
+	font-size: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#presentacion{
+	/*height: 400px;*/
+	/*background-color: #669900;*/
+	/*background-image: url("img/fondo.jpg");*/
+	background-size: cover;
+}
+
+#cajalogo{
+	width: 100%;
+	height: 250px;
+	background-size: 200px, 280px;
+}
+#boton{
+	width: 100%;
+}
+#btn_presentacion{
+	padding: 15px 40px;
+	font-size: 18px;
+}
+
+#quienes_somos{
+	height: auto;	 
+}
+
+h2{
+	font-size: 14px;
+}
+
+p{
+	font-weight: lighter;
+	font-size: 12px;
+}
+
+#productos{
+	height: 2100px;
+	padding-top: 20px;
+}
+#productos1, #productos2, #productos3, #productos4, #txt_p1, #txt_p2, #txt_p3, #txt_p4{
+	width: 250px;
+	height: 250px;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	float: none;
+}
+#tienda{
+	height: 50px;
+}
+
+#promos{
+	height: 850px;
+	box-sizing: border-box;
+	padding-top: 30px;
+
+}
+#promo1, #promo2, #promo3{
+	width: 250px;
+	height: 250px;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	float: none;
+
+}
+#recetas{
+	height: 1400px;
+	box-sizing: border-box;
+	padding-top: 50px; 
+}
+#receta1, #receta2, #txt_receta1, #txt_receta2{
+	width: 200px;
+	height: 300px;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	float: none;
+}
+
+footer{
+	height: 80px;
+	background-color: #33cccc;
+}
+
+#contacto{
+	height: auto;
+	width: 100%;
+	float: left;
+}
+
+#txt_contacto{
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+	font-size: 13px;
+}
+
+#btn_footer{
+	height: auto;
+	width: 100%;
+	float: right;
+}
+
+} /*fin disp hasta 599px*/

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Almas Naturales</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--link bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+
+	<header>
+		<div id="marca">
+			<h1 class="modal-title" id="tituloh1">ALMAS NATURALES</h1>
+			<div id="arbol"></div>
+		</div>
+		<nav id="menu_h"> <a href="#" onclick="menuH()"> <span class="icon-menu"></span> </a></nav>
+		<nav id="botonera">
+			<ul>
+				<li><a href="#quienes_somos" onclick="ocultarB()">Quienes somos</a></li>
+				<li><a href="#productos" onclick="ocultarB()">Productos</a></li>
+				<li><a href="#promos" onclick="ocultarB()">Promos</a></li>
+				<li><a href="#recetas" onclick="ocultarB()">Recetas</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="presentacion">
+		<div id="cajalogo"></div>
+		<div id="boton">
+			<a id="btn_presentacion" href="https://almasnaturales.mitiendanube.com" target="blank">TIENDA SALUDABLE</a>
+		</div>
+	</section>
+	<section id="espacio"></section>
+	<section id="quienes_somos">
+		<div class="quienes_somos"><h2 class="modal-title" id="tituloh2">QUIENES SOMOS</h2></div>
+		<p id="txt_qs">Hola! somos Agus y Pau, dos hermanas emprendedoras que aman la actividad física y la alimentación saludable."Somos lo que comemos"y nosotras lo vivenciamos tal cual reza la frase. Es por ello que decidimos embarcarnos con este hermoso proyecto de crear una tienda saludable, para ofrecerles los más variados productos naturales que les permita llevar una alimentación sana y generar buenos hábitos que harán de sus vidas y sus cuerpos, un mundo mejor. Bienvenidos!</p>
+	</section>
+	<section id="espacio"></section>
+	<section id="tienda">
+		<a class="btn btn-secondary btn-lg" id="btn_tienda" href="https://almasnaturales.mitiendanube.com" role="button" target="blank">TIENDA<span class="icon-cart"></span></a></button>
+	</section>
+	<section id="espacio"></section>
+
+	<section id="productos">
+		<!--inicio carousel-->
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  			<div class="carousel-indicators">
+   				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  			</div>
+ 		  <div class="carousel-inner">
+    		  <div class="carousel-item active">
+      			<img src="img/disecados.jpg" class="d-block w-100 alto" alt="...">
+      			<div class="carousel-caption d-none d-md-block">
+        		<h5>FRUTOS SECOS</h5>
+        		<p>Castañas, nueces, almendras, frutas disecadas,etc</p>
+      			</div>
+    		  </div>
+    		  <div class="carousel-item">
+      			<img src="img/harinas.jpeg" class="d-block w-100 alto" alt="...">
+      			<div class="carousel-caption d-none d-md-block">
+        		<h5>HARINAS</h5>
+        		<p>integral, centeno ,mandioca, avena, arroz..</p>
+     				</div>
+    		  </div>
+    		  <div class="carousel-item">
+      			<img src="img/legumbres.jpg" class="d-block w-100 alto" alt="...">
+      			<div class="carousel-caption d-none d-md-block">
+        		<h5>LEGUMBRES</h5>
+        		<p>porotos, garbanzos, arbejas, lentejas..</p>
+      			</div>
+    		  </div>
+    		  <div class="carousel-item">
+      			<img src="img/yerbas.jpeg" class="d-block w-100 alto" alt="...">
+      			<div class="carousel-caption d-none d-md-block">
+        		<h5>YERBAS ORGÁNICAS</h5>
+        		<p>tucangua, roadpipó, kalena, aradia... </p>
+      			</div>
+    		  </div>
+    		  <div class="carousel-item">
+      			<img src="img/bebibles.jpg" class="d-block w-100 alto" alt="...">
+      			<div class="carousel-caption d-none d-md-block">
+        		<h5>BEBIBLES</h5>
+        		<p>leche de almendras, de coco, jugo de arándanos...</p>
+      			</div>
+    		  </div>
+      	  <div class="carousel-item">
+        		<img src="img/suples.jpg" class="d-block w-100 alto" alt="...">
+        		<div class="carousel-caption d-none d-md-block">
+        		<h5>SUPLEMENTOS</h5>
+        		<p>proteínas, vitaminas, bebidas isotónicas...</p>
+        		</div>
+      	  </div>
+      </div>
+  			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Previous</span>
+  			</button>
+  			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Next</span>
+  			</button>
+		</div>
+	</section>
+			<!--fin carousel-->
+	<section id="espacio"></section>
+	<section id="promos">
+		<div id="promo1" onmouseover="promoON('promo1_img', 'promo1_txt')" onmouseout="promoOF('promo1_img', 'promo1_txt')">
+			<img src="img/energetico.jpg" id="promo1_img">
+			<div id="promo1_txt"> <h2 class="modal-title" id="comboE">COMBO ENERGETICO</h2></div>
+		</div>
+		<div id="promo2" onmouseover="promoON('promo2_img', 'promo2_txt')" onmouseout="promoOF('promo2_img', 'promo2_txt')">
+			<img src="img/fitness.jpg" id="promo2_img">
+			<div id="promo2_txt"> <h2 class="modal-title" id="comboF">COMBO FITNESS</h2></div>
+		</div>
+	    <div id="promo3" onmouseover="promoON('promo3_img', 'promo3_txt')" onmouseout="promoOF('promo3_img', 'promo3_txt')">
+	    	<img src="img/matero.jpg" id="promo3_img">
+	    	<div id="promo3_txt"> <h2 class="modal-title" id="comboM">COMBO MATERO</h2></div>
+	    </div>
+	</section>
+	<section id="espacio"></section>
+	<section id="recetas">
+		<div class="container-fluid">
+			<div class="row" id="recetasB">
+				<div class="col-xs-3 col-lg-3" id="receta1">
+					<!--card 1-->
+					<div class="card" id="rec1" style="width: auto;">
+  					<img src="img/granola.jpg" class="card-img-top" alt="...">
+  					<div class="card-body">
+    				<h5 class="card-title">GRANOLA CASERA</h5>
+    				<p class="card-text" id="textoR1">avena 250 gr, avellanas 70 gr, almendras 70 gr, sal una pizca, miel 4 cdas, aceite de oliva 4 cdas, agua 60 cc, aromatizante a gusto, canela 1 cdita.
+    				</p>
+    				<a href="https://www.youtube.com/watch?v=G5_V8H5B7GU" target="blank" class="btn btn-info">receta completa</a>
+  					</div>
+				</div><!--fin card 1-->
+			</div>
+
+				<div class="col-xs-3 col-lg-3" id="receta2">
+					<!--Card 2-->
+					<div class="card" id="rec2" style="width: auto;">
+  					<img src="img/budin.jpg" class="card-img-top" alt="...">
+  					<div class="card-body">
+    				<h5 class="card-title">BUDIN INTEGRAL DE NARANJA</h5>
+    				<p class="card-text" id="textoR2">azúcar 50 gr, aceite 62.5 cc, huevos 2, harina integral 75 gr, polvo de hornear 1 cdita, ralladura de naranja.</p>
+    				<a href="https://www.youtube.com/watch?v=d2FCaiJDOCw" target="blank" class="btn btn-info">receta completa</a>
+  					</div>
+					</div><!--fin card 2-->
+				</div>
+
+				<div class="col-xs-3 col-lg-3" id="receta3">
+					<!--card 3-->
+					<div class="card" id="rec3" style="width: auto;">
+  							<img src="img/batido.jpg" class="card-img-top" alt="...">
+  						<div class="card-body">
+    						<h5 class="card-title">BATIDO DE AVENA Y PLÁTANO</h5>
+    						<p class="card-text" id="textoR3">leche de almendras 150 ml, banana 1, nueces 6, dátiles 2, avena 4 cdas.</p>
+    						<a href="https://www.youtube.com/watch?v=Nw6ad8DtqPY" target="blank" class="btn btn-info">receta completa</a>
+  						</div>
+				    </div><!--fin card 3-->
+				</div>
+
+				<div class="col-xs-3 col-lg-3" id="receta4">
+					<!--card 4-->
+					<div class="card" id="rec4" style="width: auto;">
+  					<img src="img/milanesa.jpg" class="card-img-top" alt="...">
+  					<div class="card-body">
+    				<h5 class="card-title">MILANESAS DE GARBANZO</h5>
+    				<p class="card-text" id="textoR4">garbanzos 1 taza, cebolla de verdeo 2, diente de ajo 1, trozo de morrón rojo 1, perejil picado, taza de avena 1/2, huevo 1, pan rallado, semillas de sésamo, aceite, sal y pimienta a gusto. </p>
+    				<a href="https://www.youtube.com/watch?v=t4G1fbey-BU" target="blank" class="btn btn-info">receta completa</a>
+  					</div>
+					</div><!--fin card 4-->
+				</div>
+			</div>
+	</section>
+	<section id="espacio"></section>
+	<section id="formulario">
+		<form>
+			<div class="row g-3">
+				<div class="col-6">
+					<input type="text" placeholder="Nombre" class="form-control">
+				</div>
+				<div class="col-6">
+					<input type="text" placeholder="Apellido" class="form-control">
+				</div>
+					<div class="col-6"><input type="email" placeholder="Correo electrónico" class="form-control">
+				</div>
+				<div class="col-6">
+					<input type="text" placeholder="número de contacto" class="form-control">
+				</div>
+				<div class="col-12">
+					<textarea class="form-control" placeholder="Realice su pedido"></textarea>
+				</div>
+				<div class="col-2">
+					<input type="submit" class="btn btn-danger form-control">
+				</div>
+			</div>
+		</form>
+	</section>
+	<section id="espacio"></section>
+<footer>
+	<div id="whatsapp">
+		<a href="https://api.whatsapp.com/send/?phone=5493513432505&text&app_absent=0" target="blank"> <span class="icon-whatsapp1"> </span></a>
+	</div>
+	<div id="instagram">
+		<a href="https://www.instagram.com/almasnaturales_cba/?hl=es-la" target="blank"> <span class="icon-instagram1"> </span></a>
+	</div>
+	<div id="facebook">
+			<a href="https://www.facebook.com/profile.php?id=100063462372378" target="blank"> <span class="icon-facebook"> </span></a>
+	</div>
+	<h6 id="diseño">· diseño by VM design ·</h6>
+</footer>
+
+<!--javascript bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+<!--javascript almas naturales-->
+<script type="text/javascript" src="tarea8.js"></script>
+
+</body>
+</html>
